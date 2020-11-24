@@ -1,5 +1,6 @@
 package com.ych.buildsrc
 
+import com.android.build.gradle.BaseExtension
 import org.gradle.api.Plugin
 import org.gradle.api.Project;
 
@@ -14,5 +15,10 @@ public class PluginDemo implements Plugin<Project>{
         project.afterEvaluate {
             println "applicationId的值：${extensions.applicationId}"
         }
+
+        def transform = new TransformDemo()
+        def baseExtension = project.extensions.getByType(BaseExtension)
+        println "bootClassPath:${baseExtension.bootClasspath}"
+        baseExtension.registerTransform(transform)    //注册成功，TransformDemo就会被执行了
     }
 }

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: apksig-3.5.0">
+    <CLASSES>
+      <root url="jar://D:/Develop/Gradle/caches/modules-2/files-2.1/com.android.tools.build/apksig/3.5.0/120d94352a89eb11ef1978552679d42dd7c899d7/apksig-3.5.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/Develop/Gradle/caches/modules-2/files-2.1/com.android.tools.build/apksig/3.5.0/7a4f9b14725055dedf94c012f1b0c2aac0cc816d/apksig-3.5.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

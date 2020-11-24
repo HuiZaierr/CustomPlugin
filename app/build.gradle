@@ -1,9 +1,5 @@
 apply plugin: 'com.android.application'
-apply plugin: "ych"
 
-ych {
-    applicationId = "com.ych.customplugin"
-}
 //简单的自定义plugin
 //apply plugin: PlugindDemo
 
@@ -45,6 +41,11 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+}
+apply plugin: "ych"
+
+ych {
+    applicationId = "com.ych.customplugin"
 }
 
 dependencies {
